@@ -1,0 +1,24 @@
+.container{
+    margin-top: 20px;
+}
+
+.fa{
+    color: rgb(255,150,150);
+}
+
+.fa:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
+
+@media screen and (min-width: 700px){
+    .container{
+        margin-top: 80px;
+    }
+}
